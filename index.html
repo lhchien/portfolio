@@ -545,17 +545,17 @@
             layer.each(function () {
                 var heightOfLayer = $(this).height();
                 var heightOfView = $(window).height();
-                console.log(heightOfView + "----" + heightOfLayer);
+                // console.log(heightOfView + "----" + heightOfLayer);
                 if (heightOfLayer < heightOfView) {
                     $(this).css("height", "100vh");
-                    console.log("aaa");
+                    // console.log("aaa");
                 }
             })
         }
 
         reszieVew();
         $(window).resize(function () {
-            console.log("dsfsdf");
+            // console.log("dsfsdf");
             reszieVew();
         });
     </script>
