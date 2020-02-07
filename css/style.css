@@ -31,7 +31,7 @@ a:hover{color: #FFC576; text-decoration: none;}
 .main-page .l-side .nav li a{padding: 10px 15px; display: inline-block; border-right: 3px solid transparent; width: 100%; border-bottom: 1px #313552 solid; transition: .5s linear;}
 .main-page .l-side .nav li.active a{ border-right-color: #FFC576; color: #FFC576;}
 
-.r-side .layer-1{background: #1F2336 url(../images/object-1.svg) no-repeat right bottom; background-attachment: fixed; position: relative; overflow: hidden;}
+.r-side .layer-1{background: #1F2336 url(../images/object-1.png) no-repeat right bottom; background-attachment: fixed; position: relative; overflow: hidden;}
 
 .r-side .layer-1 .object-animation img{position: absolute;}
 /* Object 2 */
