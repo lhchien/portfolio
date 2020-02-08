@@ -23,7 +23,9 @@ a:hover{color: #FFC576; text-decoration: none;}
 .main-page .l-side .header-profile h2{font-family: 'Playfair Display', serif; font-size: 30px;}
 .main-page .l-side .header-profile h3{color: #FFC576; font-size: 16px;}
 .main-page .l-side .header-profile .social{display: block; width: 100%; text-align: center;}
-.main-page .l-side .header-profile .social i{font-size: 22px; margin: 5px;}
+.main-page .l-side .header-profile .social a img{width: 22px; margin: 0 5px;}
+
+/* .main-page .l-side .header-profile .social i{font-size: 22px; margin: 5px;} */
 
 .main-page .l-side .nav{ display: block; margin-top: 50px;}
 .main-page .l-side .nav li{display: block; text-align: center;}
@@ -160,11 +162,11 @@ animation: obj-3 80s infinite linear; -webkit-animation: obj-3 80s infinite line
 /* ===========================
     HOBBIES LIST
 ============================ */
-.hobbies-list ul{display: flex; justify-content: space-between; padding: 0;}
+.hobbies-list ul{display: flex; justify-content: space-between; padding: 0; align-items: flex-end;}
 .hobbies-list ul li{list-style: none; text-align: center;}
+.hobbies-list ul li img{width: 80px; margin-bottom: 20px;}
 
-
-.hobbies-list ul li i{font-size: 70px; margin-bottom: 15px;}
+/* .hobbies-list ul li i{font-size: 70px; margin-bottom: 15px;} */
 .hobbies-list ul li p{color: #FFC576;}
 
 /*===================
