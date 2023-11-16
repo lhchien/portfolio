@@ -113,6 +113,7 @@ animation: obj-3 80s infinite linear; -webkit-animation: obj-3 80s infinite line
 /* ==== Title All ===== */
 .layer-3 .title-all, .layer-4 .title-all, .layer-5 .title-all{text-align: center;}
 .title-all{ padding: 20px 0;}
+.layer-3 .title-all{padding-top: 50px; padding-bottom: 0;} 
 .title-all h2{ font: 45px 'Playfair Display', serif; font-weight: bold;}
 
 
